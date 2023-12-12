@@ -1,0 +1,290 @@
+:root {
+  --my-dark-blue: #001c64;
+  --my-light-blue: #0070e0;
+}
+
+#main1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* section 1 */
+
+#sec1-left  {
+  margin-left: 13%;
+  margin-top: 3.5%;
+  width: 35vw;
+
+  display: inline-block;
+}
+
+
+/* pesonal/Buisness button */
+
+#personalButtondiv {
+  background-color: rgb(233, 231, 225);
+  width: 14vw;
+  height: 2.8vw;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.personalButtons {
+  align-self: center;
+  width: 45%;
+  height: 85%;
+  border-radius: 100px;
+  font-size: 1vw;
+  font-weight: bold;
+  color: #003087;
+  border: none;
+  padding: 0;
+}
+
+#personalButton {
+  background-color: white;
+}
+
+#personalButton:hover {
+  /*width: 47%;
+  height: 88%;*/
+  scale: 1.05;
+  cursor: pointer;
+}
+
+#businessButton {
+  background-color: transparent;
+}
+
+#businessButton:hover {
+  background-color: rgb(193, 191, 187);
+  cursor: pointer;
+}
+
+/* main 1 text */
+#mainh1 {
+  font-family: "Bebas Neue";
+  font-size: 6vw;
+  color: var(--my-dark-blue);
+
+  line-height: 5vw;
+  margin-top: 3.5vw;
+  margin-bottom: 0;
+}
+
+#undermainh1 {
+  color: var(--my-dark-blue);
+
+  margin-top: 0;
+  font-size: 1.2vw;
+}
+
+/* main 1 button */
+
+#undermainhibuttonsec {
+  display:flex;
+  justify-content: space-between;
+  width: 17vw;
+}
+
+.undermainh1button {
+  font-size: 1.1vw;
+  font-weight: bold;
+
+  border-radius: 100px;
+  padding: 0.65vw 1.3vw 0.65vw 1.3vw;
+  
+}
+
+#undermainh1button1 {
+  color: white;
+  background-color: var(--my-dark-blue);
+  border-color: var(--my-dark-blue);
+}
+
+#undermainh1button1:hover {
+  background-color: var(--my-light-blue);
+  border-color: var(--my-light-blue);
+  cursor: pointer;
+}
+
+#undermainh1button2 {
+  color: var(--my-dark-blue);
+  border-color: var(--my-dark-blue);
+  background-color: white;
+}
+
+#undermainh1button2:hover {
+  color: var(--my-light-blue);
+  border-color: var(--my-light-blue);
+  cursor: pointer;
+}
+
+/* second main 1 text */
+
+#undermainh1tex2 {
+  font-size: 1vw;
+  color: var(--my-dark-blue);
+  width: 75%;
+  line-height: 1.6;
+}
+
+/* main 1 right img */
+
+#sec1-right {
+  display: inline-block;
+
+  width: 50vw;
+}
+
+#main1-img {
+  width: 100%;
+}
+
+@media (orientation: portrait)  {
+
+  #main1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  /* section 1 */
+  
+  #sec1-left  {
+    width: 80vw;
+    margin: 0;
+    margin-top: 2vw;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  
+  /* pesonal/Buisness button */
+  
+  #personalButtondiv {
+    background-color: rgb(233, 231, 225);
+    width: 34vw;
+    height: 7.5vw;
+    border-radius: 100px;
+  
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .personalButtons {
+    align-self: center;
+    width: 45%;
+    height: 85%;
+    border-radius: 100px;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #003087;
+    border: none;
+    padding: 0;
+  }
+  
+  #personalButton {
+    background-color: white;
+  }
+  
+  #personalButton:hover {
+    /*width: 47%;
+    height: 88%;*/
+    scale: 1.05;
+    cursor: pointer;
+  }
+  
+  #businessButton {
+    background-color: transparent;
+  }
+  
+  #businessButton:hover {
+    background-color: rgb(193, 191, 187);
+    cursor: pointer;
+  }
+  
+  /* main 1 text */
+  #mainh1 {
+    font-family: "Bebas Neue";
+    font-size: 10vw;
+    color: var(--my-dark-blue);
+  
+    line-height: 1;
+    margin-top: 3.5vw;
+    margin-bottom: 0;
+  }
+  
+  #undermainh1 {
+    color: var(--my-dark-blue);
+  
+    margin-top: 0;
+    font-size: 3vw;
+  }
+  
+  /* main 1 button */
+  
+  #undermainhibuttonsec {
+    display:flex;
+    justify-content: space-around;
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .undermainh1button {
+    font-size: 3.1vw;
+    font-weight: bold;
+  
+    border-radius: 100px;
+    padding: 1.6vw 2.3vw 1.6vw 2.3vw;
+    
+  }
+  
+  #undermainh1button1 {
+    color: white;
+    background-color: var(--my-dark-blue);
+    border-color: var(--my-dark-blue);
+  }
+  
+  #undermainh1button1:hover {
+    background-color: var(--my-light-blue);
+    border-color: var(--my-light-blue);
+    cursor: pointer;
+  }
+  
+  #undermainh1button2 {
+    color: var(--my-dark-blue);
+    border-color: var(--my-dark-blue);
+    background-color: white;
+  }
+  
+  #undermainh1button2:hover {
+    color: var(--my-light-blue);
+    border-color: var(--my-light-blue);
+    cursor: pointer;
+  }
+  
+  /* second main 1 text */
+  
+  #undermainh1tex2 {
+    font-size: 2.5vw;
+    color: var(--my-dark-blue);
+    width: 70%;
+    line-height: 1.8;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* main 1 right img */
+  
+  #sec1-right {
+    display: none;
+  }
+
+}

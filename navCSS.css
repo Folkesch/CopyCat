@@ -184,7 +184,7 @@ nav img {
     width: 50%;
     display: flex;
   
-    justify-content: space-around;
+    /*justify-content: space-around*/;
     align-items: center;
   }
   
@@ -194,9 +194,10 @@ nav img {
     border-width: 0.2vw;
     border-radius: 10vw;
   
+    padding: 0;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    width: 17vw;
+    width: 45%;
   
     font-family: "Hedvig Letters Sans";
   }
